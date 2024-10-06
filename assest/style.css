@@ -1,0 +1,447 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+nav {
+  width: 100%;
+  background-color: #293a4b;
+  text-transform: capitalize;
+  align-items: center;
+  display: flex;
+  justify-content: space-around;
+position: fixed;
+z-index: 1;
+padding: 10px 0;
+}
+ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+
+ul li {
+  margin: 20px;
+}
+
+nav a {
+  font-size: 28px;
+  text-transform: uppercase;
+  color: white;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+ .hero {
+   height: 100vh; 
+      padding-top: 81px;
+  background-color: #1abc9c;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+} 
+
+.hero .star,
+.about .star {
+  margin: 0 10px;
+  height: 20px;
+}
+
+.star-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero .line,
+.about .line {
+  width: 80px;
+  height: 3px;
+  background-color: aliceblue;
+}
+
+.circle {
+  background-color: #293a4b;
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  position: relative;
+}
+
+.circle .img-hero {
+  background-image: url("./img/woman-8696267_640-removebg-preview.png");
+  height: 230px;
+  width: 211px;
+  background-repeat: no-repeat;
+  background-size: 266px;
+  position: absolute;
+  border-radius: 50%;
+  bottom: -1px;
+  right: -4px;
+}
+
+.hero h1 {
+  margin: 30px;
+  font-size: 40px;
+  color: white;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.hero p {
+  color: white;
+  font-size: 18px;
+  margin: 20px;
+}
+
+.protfolio,
+.about,
+.contact {
+  margin-bottom: 70px;
+}
+
+.protfolio h2,
+.contact h2 {
+  text-transform: uppercase;
+  color: #293a4b;
+  font-size: 45px;
+  margin-top: 35px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.protfolio .star,
+.contact .star {
+  width: 27px;
+  height: 50px;
+  margin: 9px;
+}
+
+.protfolio .line,
+.contact .line {
+  width: 113px;
+  height: 4px;
+  background-color: #293a4b;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.card1,
+.card2,
+.card3,
+.card4,
+.card5,
+.card6 {
+  width: 310px;
+  height: 210px;
+  border-radius: 10px;
+  margin: 15px;
+}
+.circle-pro {
+  height: 175px;
+  width: 200px;
+  border-radius: 50%;
+  position: relative;
+  top: 18px;
+  left: 51px;
+}
+
+.card1 {
+  background-color: #ba4c63;
+}
+
+.card2 {
+  background-color: #1fa4b6;
+}
+
+.card3 {
+  background-color: #110d0d;
+}
+
+.card4 {
+  background-color: #1fa4b6;
+}
+
+.card5 {
+  background-color: #1037b5;
+}
+
+.card6 {
+  background-color: #c9afa0;
+}
+
+.circle-pro {
+  background-color: beige;
+}
+
+.card1 img {
+  height: 200px;
+  width: 200px;
+  position: absolute;
+  top: -10px;
+}
+
+.card2 img {
+  height: 187px;
+  width: 187px;
+  position: absolute;
+  top: -2px;
+  left: 5px;
+}
+
+.card3 img {
+  height: 166px;
+  width: 182px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.card4 img {
+  height: 182px;
+  width: 200px;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+}
+
+.card5 img {
+  height: 176px;
+  border-radius: 50%;
+  width: 200px;
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+}
+
+.card6 img {
+  height: 174px;
+  width: 168px;
+  position: absolute;
+  bottom: 0px;
+  right: 19px;
+}
+
+.about {
+  background-color: #1abc9c;
+  padding: 70px;
+  position: relative;
+}
+
+.about h2 {
+  text-transform: uppercase;
+  color: white;
+  font-size: 45px;
+  margin: 25px 0;
+  text-align: center;
+  font-weight: bold;
+}
+
+.about .about-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.about-text p {
+  color: white;
+  font-size: 24px;
+  width: 28%;
+  margin: 30px 12px;
+}
+
+.about .button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button svg {
+  margin: 0px 7px;
+}
+
+.about button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1abc9c;
+  color: white;
+  width: 200px;
+  font-size: 19px;
+  text-transform: capitalize;
+  padding: 10px;
+  margin-bottom: 40px;
+  border: 2px solid white;
+  border-radius: 5px;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 50%;
+  margin: auto;
+}
+
+.contact input,
+.contact textarea {
+  width: 100%;
+  margin: 45px;
+  padding-bottom: 20px;
+  border: none;
+  border-bottom: 1px solid rgb(179, 177, 177);
+  font-size: 20px;
+}
+
+.contact button {
+  padding: 17px 35px;
+  font-size: 20px;
+  color: white;
+  background-color: #6ad3bf;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  margin-left: 44px;
+  width: 100px;
+}
+
+.container-footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #293a4b;
+  padding: 45px;
+  flex-wrap: wrap;
+}
+
+.location,
+.info,
+.about-frelancer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 30%;
+  color: white;
+  padding: 35px;
+}
+.location{
+    width: 20%;
+}
+.container-footer h2 {
+    font-size: 20px;
+    margin: 5px;
+    text-transform: uppercase;
+    text-align: center;
+}
+.container-footer p{
+    text-align: center;
+    font-size: 17px;
+    margin: 5px;
+    
+}
+.about-frelancer a{
+    color: #1db098;
+}
+.icones{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icon-border{
+        border: 2px solid wheat;
+            border-radius: 50%;
+            text-align: center;
+            margin: 5px;
+            padding: 6px 0px;
+            width: 40px;
+}
+.copyright{
+    background-color: #1a252f;
+        padding: 25px;
+}
+.copyright p {
+    color: white;
+    font-size: 14px;
+    text-align: center;
+}
+@media (min-width: 300px) and (max-width: 769px) {
+      .hero h1,
+        .protfolio h2,
+        .about h2,
+        .contact h2 {
+          font-size: 25px;
+          text-align: center;
+        }
+      
+    
+  nav{
+    padding: 2px 0px;
+  }
+  nav p {
+      font-size: 12px;
+      margin-left: 12px;
+    }
+  
+    nav a {
+      font-size: 10px;
+      font-weight: normal;
+  margin-left: 12px
+    }
+
+  .hero p {
+    font-size: 15px;
+  }
+
+  .about-text {
+    flex-direction: column;
+  }
+
+  .about-text p {
+    font-size: 21px;
+    width: 80%;
+    text-align: center;
+  }
+     .about button {
+       width: 144px;
+       font-size: 11px;
+       text-transform: capitalize;
+       padding: 7px;
+     }
+  .contact input,
+  .contact textarea {
+    width: 55%;
+    font-size: 14px;
+  }
+
+  .contact button {
+    padding: 9px 13px;
+    font-size: 13px;
+    margin: auto;
+    width: 54px;
+  }
+    .container-footer {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+  
+    }
+}
